@@ -16,4 +16,5 @@ namespace :db do
   desc 'micrate changes to your datebase'
   task :migrate => :environment do
     Student.create_table
+  end
 end
