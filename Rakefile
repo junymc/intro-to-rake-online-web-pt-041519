@@ -7,7 +7,7 @@ end
 
 desc 'outputs hola de Rake'
 task :hola do
-  puts "hole de Rake!"
+  puts "hola de Rake!"
 end
 
 end
