@@ -4,3 +4,8 @@ desc 'outputs hello to the terminal'
 task :hello do
   puts "hello from Rake!"
 end
+
+desc 'outputs hola de Rake'
+task :hola do
+  puts "hole de Rake!"
+end
