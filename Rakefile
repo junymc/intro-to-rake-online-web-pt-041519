@@ -12,6 +12,10 @@ end
 
 end
 
+task :environment do
+  require_relative './config/environment'
+end
+
 namespace :db do
   desc 'micrate changes to your datebase'
   task :migrate => :environment do
